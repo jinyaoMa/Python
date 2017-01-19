@@ -37,13 +37,13 @@ class VCodeGenerator(object):
     def setFontSize(self, fontSize):
         if (fontSize > 1.0):
             return -1
-        self.dblFontSize = fontSize
+        self.__dblFontSize = fontSize
         
     '''
     # Get Font Size
     '''
     def getFontSize(self):
-        return self.dblFontSize
+        return self.__dblFontSize
 
     '''
     # Generate a random character include letters & digits
