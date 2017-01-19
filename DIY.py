@@ -1,3 +1,5 @@
+# copyright 2017 jinyaoMa
+
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 import random
